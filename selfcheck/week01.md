@@ -48,4 +48,4 @@ a Java osztályokat fogjátok alapszinten megismerni.
 
 Azt, hogy egy konzultáción adtunk-e ki gyakorlati feladatot, itt tudod ellenőrizni:
 
-[Konzultációkon kiadott gyakorlati feladatok]()
+[Konzultációkon kiadott gyakorlati feladatok](https://github.com/Strukturavaltas3-Alap-Java/java-strukturavalto3-alap/blob/main/labs.md)

@@ -2,6 +2,10 @@
 
 Ezen a héten a lambda kifejezések és a streamek használatát gyakorolhatjátok tovább.
 
+# Projektfeladat
+
+* [ ] Webáruház projektfeladat
+
 ## Lambda kifejezések és streamek haladó szinten - nem kötelező, de nagyon ajánlott
 
 Ezekkel a leckékkel tovább mélyíthetitek a lambda kifejezésekkel és a streamekkel kapcsolatos ismereteiteket.

@@ -17,3 +17,7 @@ Repository létrehozása,  projekt megnyitása,  git add, commit, push. Saját p
 GitHub és IDEA: tudnivalók, érdekességek, technikai részletek.
 
 Milyen dolgokban segít nekünk a fejlesztőeszköz?
+
+## 2022.07.28.
+
+Osztály, objektum, példány, attribútumok, metódusok, konstruktor.

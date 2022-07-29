@@ -18,3 +18,14 @@ Anyja neve: Minta Gizella
 (Tehát fontos, hogy külön sorokba kerüljenek az egyes adatok.)
 
 Az elkészült feladatot commitold is, és a commit üzenete úgy kezdődjön, hogy: `ex-w01d03` !
+
+## 2022.07.29. (1. hét, 5. nap)
+
+Készíts egy `w01d05.Rectangle` (téglalap) nevű osztályt, amelynek két 
+attribútuma a téglalap két oldalának hossza! Készíts egy konstruktort, 
+ami beállítja az attribútumok kezdeti értékét! Készíts egy calculateArea() 
+nevű metódust, ami visszaadja a téglalap területét! 
+Készíts egy day02.Geometry nevű osztályt melyben van egy `main()` metódus, 
+itt teszteled az elkészített téglalapokat reprezentáló osztályt!
+Commitold és töltsd fel a megoldásodat a megfelelő módon 
+(ex-w01d05 kezdetű üzenettel)!

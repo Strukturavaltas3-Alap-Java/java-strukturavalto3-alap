@@ -21,3 +21,6 @@ Milyen dolgokban segít nekünk a fejlesztőeszköz?
 ## 2022.07.28.
 
 Osztály, objektum, példány, attribútumok, metódusok, konstruktor.
+
+## 2022.08.01
+Ahaslides kvíz, gyakorlati feladat (Car, GasStation), ismétlés. 

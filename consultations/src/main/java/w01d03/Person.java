@@ -1,4 +1,4 @@
-package consultations.w01d03;
+package w01d03;
 
 import java.util.Scanner;
 

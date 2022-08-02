@@ -6,5 +6,6 @@ public class HumanMain {
 
         Human human = new Human("Kristóf",0);
         human.sayHy();
+
     }
 }

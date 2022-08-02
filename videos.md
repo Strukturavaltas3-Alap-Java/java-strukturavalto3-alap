@@ -24,3 +24,6 @@ Osztály, objektum, példány, attribútumok, metódusok, konstruktor.
 
 ## 2022.08.01
 Ahaslides kvíz, gyakorlati feladat (Car, GasStation), ismétlés. 
+
+## 2022.08.01
+Típusok összefoglalása, Investments feladat megbeszélése.

@@ -38,3 +38,6 @@ Commitold és töltsd fel a megoldásodat a megfelelő módon
 Készíts egy `w02d01.Car` osztályt, mely attribútumként tárolja, hogy hány litert a tankoltunk bele, és hány kilométert ment el ekkora mennyiségű üzemanyaggal. Mindkét attribútumhoz legyen setter metódus! Legyen egy metódus ami kiszámolja az autó átlag fogyasztását, azaz azt hogy 100km távolságon mennyit fogyasztott átlagosan. Legyen egy `w02d01.GasStation` osztály is melynek legyen egy ár attribútuma, amit konstruktoron keresztül állítunk be. Legyen egy metódusa, a tankolás, ami egy kocsit és egy liter mennyiséget vár paraméterül. Ez a metódus állítsa be a kocsi üzemanyag mennyiségét és adja vissza, hogy mennyit kellett ezért fizetni. Teszteled az osztályokat main metódusban! Commitold és töltsd fel a megoldásodat a megfelelő módon 
 (ex-w02d01 kezdetű üzenettel)!
 
+## Day03
+Készíts egy `w02d03.Mathematics` osztályt, melyben van egy `boolean isPrime(int number)` metódus ami igaz értéket ad vissza, ha a paraméterül kapott szám prím, különben hamisat.
+

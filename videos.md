@@ -30,3 +30,7 @@ Típusok összefoglalása, Investments feladat megbeszélése.
 
 ## 2022.08.03
 Algoritmusokról általában, vezérlési szerkezetek. 
+
+
+## 2022.08.04
+Tömbök, listák, algoritmusok.  

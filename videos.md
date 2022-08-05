@@ -33,4 +33,7 @@ Algoritmusokról általában, vezérlési szerkezetek.
 
 
 ## 2022.08.04
-Tömbök, listák, algoritmusok.  
+Tömbök, listák, algoritmusok. 
+
+## 2022.08.05
+Feladatmegoldás, for-each ciklus

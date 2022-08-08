@@ -11,9 +11,6 @@ public class Cinema {
     public Cinema(String city) {
         this.city = city;
     }
-    public void somehting(){
-        
-    }
 
     public void addNewMovie(String movie){
         movies.add(movie);
@@ -22,10 +19,11 @@ public class Cinema {
 
     public String findLongestTitledMovie(){
         String maxTitle = "";
-
+        int maxLength = 0;
         for(String actual : movies){
-           if(actual.length()>maxTitle.length()){
+           if(actual.length()>maxLength){
                maxTitle = actual;
+               maxLength=actual.length();
            }
         }
         return maxTitle;

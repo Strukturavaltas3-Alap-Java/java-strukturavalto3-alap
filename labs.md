@@ -66,7 +66,7 @@ Készíts egy `w03d03.Movie` nevű osztályt, melyben szerepel a film címe, ill
 
 Készítsd el a `w03d03.Cinema` nevű osztályt, melyben filmek listája szerepel. Legyen egy `addMovie(Movie movie)` metódus, amivel filmet lehet hozzáadni a listához. 
 
-Készíts egy `findMovieByTime(LocalDateTime time)` nevű metódust, ami listában visszaadja azon filmek címét, amiket a paraméterül kapott időpontban játszanak. (commit: ex-w03d02)
+Készíts egy `findMovieByTime(LocalDateTime time)` nevű metódust, ami listában visszaadja azon filmek címét, amiket a paraméterül kapott időpontban játszanak. (commit: ex-w03d03)
 A feladathoz tartozó main metódus: 
 
 ```java

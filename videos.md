@@ -43,3 +43,6 @@ Quiz, Ismétlés, listák, tömbök
 
 ## 2022.08.09
 Feladat, Refernciák részletes átbeszélése
+
+## 2022.08.10
+Feladat, Kompozício

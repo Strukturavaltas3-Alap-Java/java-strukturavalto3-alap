@@ -38,6 +38,7 @@ Tömbök, listák, algoritmusok.
 ## 2022.08.05
 Feladatmegoldás, for-each ciklus
 
+
 ## 2022.08.08
 Quiz, Ismétlés, listák, tömbök
 
@@ -46,3 +47,6 @@ Feladat, Refernciák részletes átbeszélése
 
 ## 2022.08.10
 Feladat, Kompozício
+
+## 2022.08.11
+Típusok, operátorok és algoritmizálós gyakorlati feladat

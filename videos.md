@@ -50,3 +50,6 @@ Feladat, Kompozício
 
 ## 2022.08.11
 Típusok, operátorok és algoritmizálós gyakorlati feladat
+
+## 2022.08.12
+JUnit részletes átbeszélése

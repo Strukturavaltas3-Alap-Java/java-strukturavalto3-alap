@@ -109,3 +109,16 @@ Készítsd el a `Passenger` osztályt, ami egy utast reprezentál. Minden utasna
 Egy másik osztály legyen a `Plane`. Minden repülőnek van egy max kapacitás attribútuma és egy utaslistája. Legyen egy `boolean addPassenger(Passenger passanger)` metódus, ami hozzáad egy emebert a listához, ha van még hely, ha nincs akkor hamis értékkel tér vissza.
 
 Legyen egy metódus a `int numberOfPackages()` ami visszaadja, hogy összesen hány bőrönd került fel a gépre.(commit: ex-w03d05)
+
+# Week04 (2022.08.15-2022.08.19)
+
+## Day01
+Tökéletes számnak nevezzük azokat a természetes számokat, amelyek megegyeznek az önmaguknál kisebb osztóik összegével. (Forrás: Wikipédia)
+Készits egy `numbers.PerfectNumbers` osztályt, amiben van egy `boolean isPerfectNumber(int number)` metódus, ami eldönti egy számról, hogy tökéletes szám-e.
+
+Például: A 6 tökéletes szám mert a nála kisebb osztóinak összege 1+2+3=6
+
+Írj teszteseteket a feladathoz!(commit: ex-w04d01)
+
+
+

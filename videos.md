@@ -53,3 +53,6 @@ Típusok, operátorok és algoritmizálós gyakorlati feladat
 
 ## 2022.08.12
 JUnit részletes átbeszélése
+
+## 2022.08.15
+Gyakorlati feladat, tesztelés, for each ciklus ismétlése, Szultános feladat megbeszélése

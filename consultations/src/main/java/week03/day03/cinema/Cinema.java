@@ -14,11 +14,13 @@ public class Cinema {
 
     public List<String> findMovieByTime(LocalDateTime time) {
         List<String> titles = new ArrayList<>();
-        for (Movie actualMovie : movies) {
-            if (actualMovie.getTimes().contains(time)) {
-                titles.add(actualMovie.getTitle());
+
+        for (Movie actual : movies) {
+            if (actual.getTimes().contains(time)) {
+                titles.add(actual.getTitle());
             }
         }
+
         return titles;
     }
 

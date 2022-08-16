@@ -56,3 +56,6 @@ JUnit részletes átbeszélése
 
 ## 2022.08.15
 Gyakorlati feladat, tesztelés, for each ciklus ismétlése, Szultános feladat megbeszélése
+
+## 2022.08.16
+Gyakorlati feladat (NameValidator), Url-es feladat megbeszélése 

@@ -59,3 +59,6 @@ Gyakorlati feladat, tesztelés, for each ciklus ismétlése, Szultános feladat 
 
 ## 2022.08.16
 Gyakorlati feladat (NameValidator), Url-es feladat megbeszélése 
+
+## 2022.08.17
+Reguláris kifejezések (rövid áttekintés), Akasztófa alkalmazás

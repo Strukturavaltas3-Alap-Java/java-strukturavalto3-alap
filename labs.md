@@ -123,5 +123,8 @@ Például: A 6 tökéletes szám mert a nála kisebb osztóinak összege 1+2+3=6
 ## Day02
 Készíts egy `NameValidator` nevű osztályt, benne egy `boolean isValidName(String name)` nevű metódussal, ami eldönti egy String-ről, hogy név-e. Akkor tekintjük névnek, ha legalább 2 szóból áll és mindegyik rész nagy betűvel kezdődik. (commit: ex-w04d02)
 
+## Day03
+Készítsd el a `Hangamn` (aksztófa) alkalmazást a konzultáción elhangzott specifikáció alapján!
+
 
 

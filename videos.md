@@ -62,3 +62,6 @@ Gyakorlati feladat (NameValidator), Url-es feladat megbeszélése
 
 ## 2022.08.17
 Reguláris kifejezések (rövid áttekintés), Akasztófa alkalmazás
+
+## 2022.08.18
+Feladat, enumok, kasztolás, konvertálás

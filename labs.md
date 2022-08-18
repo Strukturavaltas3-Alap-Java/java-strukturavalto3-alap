@@ -128,7 +128,7 @@ Készítsd el a `Hangamn` (aksztófa) alkalmazást a konzultáción elhangzott s
 
 
 ## Day04
-Készíts egy `Numbers` nevű osztályt, amiben van egy `int sumOfDigits(int number)` nevű metódus, ami visszaadja a paraméterül kapott szám számjegyeinek összegét. 
+Készíts egy `Numbers` nevű osztályt, amiben van egy `int sumOfDigits(int number)` nevű metódus, ami visszaadja a paraméterül kapott szám számjegyeinek összegét.(commit: ex-w04d04) 
 
 
 

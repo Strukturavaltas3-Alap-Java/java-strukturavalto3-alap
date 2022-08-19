@@ -65,3 +65,7 @@ Reguláris kifejezések (rövid áttekintés), Akasztófa alkalmazás
 
 ## 2022.08.18
 Feladat, enumok, kasztolás, konvertálás
+
+## 2022.08.19
+Vizsga folyamat bemutatása
+

@@ -1,0 +1,1 @@
+# A Struktúraváltó 3.0 vizsgáinak mappája

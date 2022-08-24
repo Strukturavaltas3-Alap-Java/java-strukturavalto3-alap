@@ -1,56 +1,56 @@
 # Vizsgafeladat
 
-A feladatok megoldásához az IDEA fejlesztõeszközt használd! Bármely régebbi osztályt megnyithatsz.
+A feladatok megoldÃ¡sÃ¡hoz az IDEA fejlesztÅ‘eszkÃ¶zt hasznÃ¡ld! BÃ¡rmely rÃ©gebbi osztÃ¡lyt megnyithatsz.
 
-Az exams repository-ba dolgozz. Ezen könyvtár tartalmát nyugodtan át lehet másolni (`pom.xml`, tesztesetek). Ha másik Java verziót használsz,
-akkor ne felejtsd el a megfelelõ paramétereket átírni a `pom.xml`-ben.
-Az exams repository-n belül a projekt neve legyen: `sv3-2022-jvjbf-elso-reszvizsga-potvizsga`. 
+Az exams repository-ba dolgozz. Ezen kÃ¶nyvtÃ¡r tartalmÃ¡t nyugodtan Ã¡t lehet mÃ¡solni (`pom.xml`, tesztesetek). Ha mÃ¡sik Java verziÃ³t hasznÃ¡lsz,
+akkor ne felejtsd el a megfelelÅ‘ paramÃ©tereket Ã¡tÃ­rni a `pom.xml`-ben.
+Az exams repository-n belÃ¼l a projekt neve legyen: `sv3-2022-jvjbf-elso-reszvizsga-potvizsga`. 
 GroupId: `training360`, artifactId: `sv3-2022-jvjbf-elso-reszvizsga-potvizsga`.
 
-Ha ezzel kész vagy, azonnal commitolj, a commit szövege legyen: "init".
+Ha ezzel kÃ©sz vagy, azonnal commitolj, a commit szÃ¶vege legyen: "init".
 
-Az egyes feladatokat külön csomagba szervezd! A csomagneveket a feladat leírásában találod. Minden egyes feladathoz tartozik
-egy-egy elõre elkészített `XxxTest` osztály, mindegyikben több `test()` metódussal. Ezekkel a megoldásod helyességét
-ellenõrizheted. Ha a tesztek nem futnak, akkor ne a
-`test()` metóduson változtass, hanem a saját megoldásodat nézd át újra!
+Az egyes feladatokat kÃ¼lÃ¶n csomagba szervezd! A csomagneveket a feladat leÃ­rÃ¡sÃ¡ban talÃ¡lod. Minden egyes feladathoz tartozik
+egy-egy elÅ‘re elkÃ©szÃ­tett `XxxTest` osztÃ¡ly, mindegyikben tÃ¶bb `test()` metÃ³dussal. Ezekkel a megoldÃ¡sod helyessÃ©gÃ©t
+ellenÅ‘rizheted. Ha a tesztek nem futnak, akkor ne a
+`test()` metÃ³duson vÃ¡ltoztass, hanem a sajÃ¡t megoldÃ¡sodat nÃ©zd Ã¡t Ãºjra!
 
-A feladatra 90 perced van összesen!
+A feladatra 90 perced van Ã¶sszesen!
 
-Ha letelik az idõ, mindenképp commitolj, akkor is, ha nem vagy kész! A commit idõpontja alapján fogjuk ellenõrizni a megoldásod.
-Ha nincs commitod az idõ lejárta elõtt, akkor sajnos nem tudjuk értékelni a megoldásod! Fontos, hogy csak olyan kódot tölts fel, amit egybõl tudunk futtatni!
-Ha a kódod egyes részei nem fordulnak le, akkor inkább tedd õket kommentbe.
+Ha letelik az idÅ‘, mindenkÃ©pp commitolj, akkor is, ha nem vagy kÃ©sz! A commit idÅ‘pontja alapjÃ¡n fogjuk ellenÅ‘rizni a megoldÃ¡sod.
+Ha nincs commitod az idÅ‘ lejÃ¡rta elÅ‘tt, akkor sajnos nem tudjuk Ã©rtÃ©kelni a megoldÃ¡sod! Fontos, hogy csak olyan kÃ³dot tÃ¶lts fel, amit egybÅ‘l tudunk futtatni!
+Ha a kÃ³dod egyes rÃ©szei nem fordulnak le, akkor inkÃ¡bb tedd Å‘ket kommentbe.
 
-## Számok (10 pont)
+## SzÃ¡mok (10 pont)
 
-Az `numbers.Numbers` osztályban írj egy `int sumOfPositiveEvenNumbers(List<Integer> numbers)` metódust, 
-amely visszaadja a listában lévõ pozitív páros számok összegét. 
+Az `numbers.Numbers` osztÃ¡lyban Ã­rj egy `int sumOfPositiveEvenNumbers(List<Integer> numbers)` metÃ³dust, 
+amely visszaadja a listÃ¡ban lÃ©vÅ‘ pozitÃ­v pÃ¡ros szÃ¡mok Ã¶sszegÃ©t. 
 
 ## Focicsapat
 
-### 1. rész (20 pont)
+### 1. rÃ©sz (20 pont)
 
-Készíts egy `teams.Player` nevû osztályt, melynek attribútumai a játékos neve, születési ideje, a mez száma, és a pozíciója,
-ami a következõ értékeket veheti fel: `GOALKEEPER, DEFENDER, MIDFIELDER, STRIKER`. Minden attribútumot konstruktorban
-állíts be!
+KÃ©szÃ­ts egy `teams.Player` nevÅ± osztÃ¡lyt, melynek attribÃºtumai a jÃ¡tÃ©kos neve, szÃ¼letÃ©si ideje, a mez szÃ¡ma, Ã©s a pozÃ­ciÃ³ja,
+ami a kÃ¶vetkezÅ‘ Ã©rtÃ©keket veheti fel: `GOALKEEPER, DEFENDER, MIDFIELDER, STRIKER`. Minden attribÃºtumot konstruktorban
+Ã¡llÃ­ts be!
 
-Készíts egy `teams.Team` nevû osztályt, melyben a csapat neve és a játékosok listája található. A csapat nevét konstruktorban állítsuk be. 
-Legyen benne egy `boolean addPlayer(Player)` metódus,
-ami hozzáad egy játékost a listához. Ami fontos, hogy a listában legfeljebb 18 játékos lehessen. (Azért ennyi, hogy legyenek cserék is.)
+KÃ©szÃ­ts egy `teams.Team` nevÅ± osztÃ¡lyt, melyben a csapat neve Ã©s a jÃ¡tÃ©kosok listÃ¡ja talÃ¡lhatÃ³. A csapat nevÃ©t konstruktorban Ã¡llÃ­tsuk be. 
+Legyen benne egy `boolean addPlayer(Player player)` metÃ³dus,
+ami hozzÃ¡ad egy jÃ¡tÃ©kost a listÃ¡hoz. Ami fontos, hogy a listÃ¡ban legfeljebb 18 jÃ¡tÃ©kos lehessen. (AzÃ©rt ennyi, hogy legyenek cserÃ©k is.)
 
-Készíts egy `teams.League` nevû osztályt, melyben csapatok listája található, és ezt a listát konstruktorban kapja meg. 
+KÃ©szÃ­ts egy `teams.League` nevÅ± osztÃ¡lyt, melyben csapatok listÃ¡ja talÃ¡lhatÃ³, Ã©s ezt a listÃ¡t konstruktorban kapja meg. 
 
 
-### 2. rész (20 pont)
+### 2. rÃ©sz (20 pont)
 
-Bõvítsd a `Team` osztályt egy `int countBirthBefore(LocalDate date)` metódussal, ami megszámolja, hogy hány játékos született a 
-paraméterül átadott dátum elõtt.
+BÅ‘vÃ­tsd a `Team` osztÃ¡lyt egy `int countBirthBefore(LocalDate date)` metÃ³dussal, ami megszÃ¡molja, hogy hÃ¡ny jÃ¡tÃ©kos szÃ¼letett a 
+paramÃ©terÃ¼l Ã¡tadott dÃ¡tum elÅ‘tt.
 
-Bõvítsd a `Team` osztályt egy `boolean isPlayerWithNameInTeam(String name)` metódussal, ami igazzal tér vissza, ha a csapatban 
-szerepel a paraméterül kapott nevû játékos. 
+BÅ‘vÃ­tsd a `Team` osztÃ¡lyt egy `boolean isPlayerWithNameInTeam(String name)` metÃ³dussal, ami igazzal tÃ©r vissza, ha a csapatban 
+szerepel a paramÃ©terÃ¼l kapott nevÅ± jÃ¡tÃ©kos. 
 
-Bõvítsd a `League` osztályt egy `Team findTeamWithPlayer(String name)` nevû metódussal, ami visszaadja a csapatot, amiben a 
-paraméterül kapott nevû játékos szerepel. Ha egyik csapatban sem szerepel, akkor térj vissza `null` referenciával. 
-(Feltételezhetjük, hogy nincs két ugyanolyan nevû játékos.)
+BÅ‘vÃ­tsd a `League` osztÃ¡lyt egy `Team findTeamWithPlayer(String name)` nevÅ± metÃ³dussal, ami visszaadja a csapatot, amiben a 
+paramÃ©terÃ¼l kapott nevÅ± jÃ¡tÃ©kos szerepel. Ha egyik csapatban sem szerepel, akkor tÃ©rj vissza `null` referenciÃ¡val. 
+(FeltÃ©telezhetjÃ¼k, hogy nincs kÃ©t ugyanolyan nevÅ± jÃ¡tÃ©kos.)
 
 
 

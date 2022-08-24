@@ -33,10 +33,10 @@ a típusokról, az operátorokról, valamint megtanultok automatikus tesztesetek
 * [ ] [Operátorok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709858-operatorok)
 * [ ] Operátorok gyakorlati feladat
 * [ ] Oszthatóság vizsgálata gyakorlati feladat [(Szöveges anyag itt)](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/texts/28278683-oszthatosag-vizsgalata)
-* [ ] [Egész és lebegőpontos számok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709854-egesz-es-lebegopontos-szamok)
-* [ ] Egész és lebegőpontos számok gyakorlati feladat
 * [ ] [Típuskonverzió videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709762-tipuskonverzio)
 * [ ] Típuskonverzió gyakorlati feladat
+* [ ] [Egész és lebegőpontos számok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709854-egesz-es-lebegopontos-szamok)
+* [ ] Egész és lebegőpontos számok gyakorlati feladat  
 * [ ] [Különbségek a típuskonverzió, boxing és String műveletek között videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993726-kulonbsegek-a-tipuskonverzio-boxing-es-string-muveletek-kozott)
 * [ ] Különbségek a típuskonverzió, boxing és String műveletek között gyakorlati feladat
 

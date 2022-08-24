@@ -37,8 +37,8 @@ a típusokról, az operátorokról, valamint megtanultok automatikus tesztesetek
 * [ ] Egész és lebegőpontos számok gyakorlati feladat
 * [ ] [Típuskonverzió videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709762-tipuskonverzio)
 * [ ] Típuskonverzió gyakorlati feladat
-* [ ] [Konverziók videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993726-konverziok)
-* [ ] Konverziók gyakorlati feladat
+* [ ] [Különbségek a típuskonverzió, boxing és String műveletek között videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/27993726-kulonbsegek-a-tipuskonverzio-boxing-es-string-muveletek-kozott)
+* [ ] Különbségek a típuskonverzió, boxing és String műveletek között gyakorlati feladat
 
 ## Unit tesztelés JUnittal
 

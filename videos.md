@@ -69,3 +69,5 @@ Feladat, enumok, kasztolás, konvertálás
 ## 2022.08.19
 Vizsga folyamat bemutatása
 
+## 2022.08.29
+A hét feladatainak megbeszélése, vizsga tapasztalatok megbeszélése

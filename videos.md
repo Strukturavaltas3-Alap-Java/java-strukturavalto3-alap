@@ -71,3 +71,6 @@ Vizsga folyamat bemutatása
 
 ## 2022.08.29
 A hét feladatainak megbeszélése, vizsga tapasztalatok megbeszélése
+
+## 2022.08.30
+Kivételkezelés átbeszélése

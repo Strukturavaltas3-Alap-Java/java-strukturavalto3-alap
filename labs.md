@@ -131,4 +131,12 @@ Készítsd el a `Hangamn` (aksztófa) alkalmazást a konzultáción elhangzott s
 Készíts egy `Numbers` nevű osztályt, amiben van egy `int sumOfDigits(int number)` nevű metódus, ami visszaadja a paraméterül kapott szám számjegyeinek összegét.(commit: ex-w04d04) 
 
 
+# Week06 (2022.08.29-2022.09.03)
+
+## Day02
+Készíts egy `User` nevű osztályt. Minden felhasználónak legyen egy felhasználóneve és egy e-mail címe.
+
+Készíts egy `UserRepository` nevű osztályt, melyben legyen egy lista felhasználókkal. Legyen egy metódus ami felhasználónév alapján visszaad egy `User`-t. Ha a felhasználó nem található dobj `IllegalArgumentException`-t. (commit: ex-w06d02) 
+
+
 

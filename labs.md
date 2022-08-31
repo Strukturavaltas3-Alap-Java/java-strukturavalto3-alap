@@ -156,6 +156,6 @@ Hozd létre az adatokból a `schoolequipment.csv` állományt az `src/main/resou
 könyvtárban! Hozz létre egy `SchoolEquipment` osztályt, ami a fájl egy sorát
 reprezentálja! Majd készítsd el a `FirstA` osztályt, ami tárol egy listát az
 első osztályban szükséges tanszerekről, és konstruktorban beolvassa a paraméterül
-(`Path`) átadott fájl tartalmát! Készíts unit teszteket is!
+(`Path`) átadott fájl tartalmát! Készíts unit teszteket is! (commit: ex-w06d03)
 
 

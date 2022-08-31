@@ -74,3 +74,6 @@ A hét feladatainak megbeszélése, vizsga tapasztalatok megbeszélése
 
 ## 2022.08.30
 Kivételkezelés átbeszélése
+
+## 2022.08.31
+Fájlbeolvasás, kivételkezelés egy konkrét gyakorlati feladaton keresztül.

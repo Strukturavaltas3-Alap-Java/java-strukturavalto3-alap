@@ -77,3 +77,6 @@ Kivételkezelés átbeszélése
 
 ## 2022.08.31
 Fájlbeolvasás, kivételkezelés egy konkrét gyakorlati feladaton keresztül.
+
+## 2022.09.01
+Csoportmunka

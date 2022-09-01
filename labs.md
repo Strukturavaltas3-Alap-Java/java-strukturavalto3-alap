@@ -179,6 +179,6 @@ Egy minta file:
 4 2 5
 4 3 9
 ```
-Itt látható, hogy a futár nem dolgozott a 3. 5. 6. és 7. napon. 
+Itt látható, hogy a futár nem dolgozott a 3. 5. 6. és 7. napon. (commit: ex-w06d04)
 
 

@@ -80,3 +80,7 @@ Fájlbeolvasás, kivételkezelés egy konkrét gyakorlati feladaton keresztül.
 
 ## 2022.09.01
 Csoportmunka
+
+## 2022.09.02
+Csoportmunka feladat átbeszélése, fájlból olvasás Scannerrel, file-ba írás.
+

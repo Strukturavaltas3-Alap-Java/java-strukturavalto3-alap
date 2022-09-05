@@ -84,3 +84,6 @@ Csoportmunka
 ## 2022.09.02
 Csoportmunka feladat átbeszélése, fájlból olvasás Scannerrel, file-ba írás.
 
+## 2022.09.05
+Ismétlés
+

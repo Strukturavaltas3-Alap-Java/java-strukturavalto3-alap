@@ -87,3 +87,5 @@ Csoportmunka feladat átbeszélése, fájlból olvasás Scannerrel, file-ba ír�
 ## 2022.09.05
 Ismétlés
 
+## 2022.09.06
+Rekurzió és paraméterátadás átbeszélése, katonás feladaton megoldása.

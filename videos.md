@@ -92,3 +92,6 @@ Rekurzió és paraméterátadás átbeszélése, katonás feladaton megoldása.
 
 ## 2022.09.07
 Metódus túlterhelés, statikus metódusok
+
+## 2022.09.08
+Gyakorlati feladatok megbeszélése

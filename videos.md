@@ -95,3 +95,6 @@ Metódus túlterhelés, statikus metódusok
 
 ## 2022.09.08
 Gyakorlati feladatok megbeszélése
+
+## 2022.09.09
+Feladat és ismétlés

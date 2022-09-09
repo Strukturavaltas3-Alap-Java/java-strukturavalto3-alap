@@ -206,7 +206,6 @@ ami kigyűjti és visszaadja azokat a számokat egy listában, amik az átlagtó
 a paraméterül átadott értékben térnek el!(commit: ex-w07d03)
  
 ## Day05
-
 Készíts egy `Recipe` osztályt, melynek van egy neve, egy hozzávalók listája
 és egy leírása (minden String típusú). Receptet létre lehet hozni csak a neve
 alapján, vagy név és leírás alapján.

@@ -196,10 +196,22 @@ Egy minta file:
 ```
 
 ## Day03
-Készíts egy `day03.NumberSequence` osztályt, aminek van egy egész számokból álló listája. Legyen benne két `void updateList()` metódus. Az egyik egy listát kap paraméterül és annak összes elemét belepakolja az attribútumba, a másik három számot kap, melyből az első hogy hány véletlen számot generáljon a másik kettő pedig a minimum és maximum érték ami között generáljon (zárt intervallum) és az így generált számokat rakja bele az attribútumba. Legyen egy metódus `closeToAverage(int value)`, ami kigyűjti és visszaadja azokat a számokat egy listában, amik az átlagtól legfeljebb a paraméterül átadott értékben térnek el!(commit: ex-w07d03)
+Készíts egy `day03.NumberSequence` osztályt, aminek van egy egész számokból 
+álló listája. Legyen benne két `void updateList()` metódus. Az egyik egy listát 
+kap paraméterül és annak összes elemét belepakolja az attribútumba, a másik három 
+számot kap, melyből az első hogy hány véletlen számot generáljon a másik kettő pedig 
+a minimum és maximum érték ami között generáljon (zárt intervallum) és az így generált 
+számokat rakja bele az attribútumba. Legyen egy metódus `closeToAverage(int value)`, 
+ami kigyűjti és visszaadja azokat a számokat egy listában, amik az átlagtól legfeljebb 
+a paraméterül átadott értékben térnek el!(commit: ex-w07d03)
  
+## Day05
 
+Készíts egy `Recipe` osztályt, melynek van egy neve, egy hozzávalók listája
+és egy leírása (minden String típusú). Receptet létre lehet hozni csak a neve
+alapján, vagy név és leírás alapján.
+Legyen egy `addIngredient()` metódus, amivel LEGALÁBB egy hozzávalót hozzá lehet
+adni a listához. (Egyet kötelező!)
+Írj teszteseteket is!
+(commit: ex-w07d05)
  
-
-
-

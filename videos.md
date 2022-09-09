@@ -43,7 +43,7 @@ Feladatmegoldás, for-each ciklus
 Quiz, Ismétlés, listák, tömbök
 
 ## 2022.08.09
-Feladat, Refernciák részletes átbeszélése
+Feladat, Referenciák részletes átbeszélése
 
 ## 2022.08.10
 Feladat, Kompozício

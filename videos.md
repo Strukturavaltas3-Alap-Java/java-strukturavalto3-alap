@@ -98,3 +98,6 @@ Gyakorlati feladatok megbeszélése
 
 ## 2022.09.09
 Feladat és ismétlés
+
+## 2022.09.12
+Quiz (immutable objektumok, metódusok, konstruktorok), ismétlés.

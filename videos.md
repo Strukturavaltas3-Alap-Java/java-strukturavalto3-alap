@@ -101,3 +101,6 @@ Feladat és ismétlés
 
 ## 2022.09.12
 Quiz (immutable objektumok, metódusok, konstruktorok), ismétlés.
+
+## 2022.09.13
+Öröklődés összefoglaló

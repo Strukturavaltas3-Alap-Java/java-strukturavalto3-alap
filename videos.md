@@ -104,3 +104,6 @@ Quiz (immutable objektumok, metódusok, konstruktorok), ismétlés.
 
 ## 2022.09.13
 Öröklődés összefoglaló
+
+## 2022.09.14
+Öröklődés gyakorlása

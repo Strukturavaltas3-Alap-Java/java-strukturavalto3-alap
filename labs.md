@@ -216,7 +216,7 @@ adni a listához. (Egyet kötelező!)
 
 # Week08 (2022.09.12-2022.09.16)
 
-## Day01
+## Day03
 Az alábbi feladatban egy koncertre való beléptetést fogunk megvalósítani. Készíts egy  `day01.Ticket` osztályt. Minden jegyen rajta van, a zenekar neve, a pontos dátum és időpont, és az ár.
 Ezeket konstruktorban állítsuk be. Legyen továbbá egy `entryTime()` metódus, ami megmondja, hogy mikor léphetünk be a rendezvényre (csak az időpontot, dátumot már nem). Ez itt legyen egy órával a kezdés előtt. <br>
 

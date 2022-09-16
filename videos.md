@@ -110,3 +110,6 @@ Quiz (immutable objektumok, metódusok, konstruktorok), ismétlés.
 
 ## 2022.09.15
 Gyakorlati feladat, Interfacek áttekintése
+
+## 2022.09.16
+Inetrfacek öröklődése, default interface metódusok abstract osztály vs interface

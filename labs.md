@@ -235,4 +235,4 @@ Történet:  Caesar-kód vagy Caesar-rejtjel az egyik legegyszerűbb és legelte
 Készíts egy `Caesar` nevű osztályt ami az `Encryption`-t implementálja. Egy attribútuma, az eltolás mértéke (offset), ami konstruktorban állítsunk be. Definiáljuk felül az `encrypts()` metódust, a történetnek megfelelően. (commit: ex-w08d04) 
 
 ## Day05
-Túrázás közben egy GPS eszköz egységes időközönként rögzíti hogy milyen magasan vagyunk. Írj a `Hiking` osztályba egy `double getPlusElevation(List<Double> heights)` metódust, mely megkapja a magasságok listáját (lebegőpontos lista), és visszaadja összemelkedést amit megtettünk. Azaz pl. 10,20,15,18 esetén 13.
+Túrázás közben egy GPS eszköz egységes időközönként rögzíti hogy milyen magasan vagyunk. Írj a `day05.Hiking` osztályba egy `double getPlusElevation(List<Double> heights)` metódust, mely megkapja a magasságok listáját (lebegőpontos lista), és visszaadja összemelkedést amit megtettünk. Azaz pl. 10,20,15,18 esetén 13.(commit:ex-w08d05)

@@ -236,3 +236,8 @@ Készíts egy `Caesar` nevű osztályt ami az `Encryption`-t implementálja. Egy
 
 ## Day05
 Túrázás közben egy GPS eszköz egységes időközönként rögzítjük hogy milyen magasan vagyunk. Írj a `day05.Hiking` osztályba egy `double getPlusElevation(List<Double> heights)` metódust, mely megkapja a magasságok listáját (lebegőpontos lista), és visszaadja összemelkedést amit megtettünk. Azaz pl. 10,20,15,18 esetén 13.(commit:ex-w08d05)
+
+# Week09 (2022.09.19-2022.09.23)
+
+## Day01
+Készíts a `day01` csomagban egy `Lottery` osztályt, melynek két attribútuma az, hogy hány számból kell húzni és mennyit húznak. Legyen egy `startLottery()` metódusa, ami visszaad egy listát amiben annyi véletlen szám van amennyit húzni kell a határnak megfelelően. A sorrendre nem kell figyelni, a lényeg, hogy a számok különbözők legyenek!

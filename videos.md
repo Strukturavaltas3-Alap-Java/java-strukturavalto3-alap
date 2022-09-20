@@ -113,3 +113,9 @@ Gyakorlati feladat, Interfacek áttekintése
 
 ## 2022.09.16
 Inetrfacek öröklődése, default interface metódusok abstract osztály vs interface
+
+## 2022.09.19
+Gyakorlás
+
+## 2022.09.20
+Ismétlés: öröklődés, absztrakt osztályok, interfészek.

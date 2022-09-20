@@ -88,7 +88,7 @@ Csoportmunka feladat átbeszélése, fájlból olvasás Scannerrel, file-ba ír�
 Ismétlés
 
 ## 2022.09.06
-Rekurzió és paraméterátadás átbeszélése, katonás feladaton megoldása.
+Rekurzió és paraméterátadás átbeszélése, katonás feladat megoldása.
 
 ## 2022.09.07
 Metódus túlterhelés, statikus metódusok

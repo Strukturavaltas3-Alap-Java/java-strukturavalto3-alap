@@ -119,3 +119,6 @@ Gyakorlás
 
 ## 2022.09.20
 Ismétlés: öröklődés, absztrakt osztályok, interfészek.
+
+## 2022.09.21
+Csoportmunka

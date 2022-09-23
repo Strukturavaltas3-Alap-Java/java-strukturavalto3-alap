@@ -263,3 +263,6 @@ Feladatok:
 3. Írj egy metódust ami bekér egy várost és azt, hogy az induló vagy érkező járatokat szeretnénk-e. És egy Listába adjuk viassza az összes abba városba/ból induló/érkező repülőt.
 4. A repülőtéren két kifutó van az egyiken az érkező gépek landolnak a másikon az indulók szálnak fel. Két esemény között legalább 3 percnek el kell telnie.(Két leszállás avgy két felszállás között) Készíts egy metódust ami eldönti, hogy ennek megfelelő-e a mentrend.
 5. A repülőtér 00:00 és 5:00 között zárva tart, írj egy metódust, ami az ebbe az idősávba eső gépeket törli a listából.  
+
+## Day05
+Készíts a `Character` osztályban egy olyan metódust ami bemenő paraméterül kap egy szöveget és visszaadja, hogy melyik a leggyakrabban előforduló karakter a szövegben!

@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         List<String> lines = Arrays.asList("first line", "YYEEEE", "third line");
         try {
-            Path path = Path.of("lines.txt");
+            Path path = Path.of("lines1.txt");
             if(Files.exists(path)){
                 System.out.println("Létezik");
             }

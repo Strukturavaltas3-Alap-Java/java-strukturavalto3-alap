@@ -122,3 +122,6 @@ Ismétlés: öröklődés, absztrakt osztályok, interfészek.
 
 ## 2022.09.21
 Csoportmunka
+
+## 2022.09.22
+Öröklődés vs Kompozíció

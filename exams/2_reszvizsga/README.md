@@ -1,7 +1,7 @@
 # Vizsgafeladat
 A feladatok megoldásához az IDEA fejlesztőeszközt használd! Bármely régebbi osztályt megnyithatsz.
 
-Új repository-ba dolgozz! Ezen könyvtár tartalmát nyugodtan át lehet másolni (`pom.xml`, tesztek). Projekt, könyvtár,
+A szokásos `exams` repository-ba dolgozz! Ezen könyvtár tartalmát nyugodtan át lehet másolni (`pom.xml`, tesztek). Projekt, könyvtár,
 repository neve legyen: `sv3-2022-jvjbf-masodik-reszvizsga`! GroupId: `training360`, artifactId: `sv3-2022-jvjbf-masodik-reszvizsga`.
 
 Ha ezzel kész vagy, azonnal commitolj, a commit szövege legyen: `init`!

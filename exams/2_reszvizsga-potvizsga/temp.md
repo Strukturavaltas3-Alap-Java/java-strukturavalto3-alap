@@ -1,1 +1,0 @@
-Ide jön a pótvizsga feladatsor.

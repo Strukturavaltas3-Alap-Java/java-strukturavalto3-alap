@@ -125,3 +125,6 @@ Csoportmunka
 
 ## 2022.09.22
 Öröklődés vs Kompozíció
+
+## 2022.10.11
+Fájlkezelés BufferedReaderrel, saját kivétel

@@ -128,3 +128,6 @@ Csoportmunka
 
 ## 2022.10.11
 Fájlkezelés BufferedReaderrel, saját kivétel
+
+## 2022.10.12
+Vizsgafeladat átbeszélése, interjútapasztalatok

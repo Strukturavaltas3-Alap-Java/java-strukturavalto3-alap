@@ -1,4 +1,4 @@
-package rain;
+package week12.day01.rain;
 
 import java.time.LocalDate;
 

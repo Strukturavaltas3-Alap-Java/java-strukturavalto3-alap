@@ -126,6 +126,9 @@ Csoportmunka
 ## 2022.09.22
 Öröklődés vs Kompozíció
 
+## 2022.10.10
+Fájlbeolvasás Scannerrel és BufferedReaderrel, try-with-resources szerkezet használata, multi catch, saját kivételosztály.
+
 ## 2022.10.11
 Fájlkezelés BufferedReaderrel, saját kivétel
 

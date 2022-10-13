@@ -134,3 +134,6 @@ Fájlkezelés BufferedReaderrel, saját kivétel
 
 ## 2022.10.12
 Vizsgafeladat átbeszélése, interjútapasztalatok
+
+## 2022.10.13
+Csoportmunka

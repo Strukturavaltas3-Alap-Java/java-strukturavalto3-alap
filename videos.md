@@ -137,3 +137,9 @@ Vizsgafeladat átbeszélése, interjútapasztalatok
 
 ## 2022.10.13
 Csoportmunka
+
+## 2022.10.14
+Visszakérdezős konzultáció
+
+## 2022.10.17.
+Kollekciók, belső osztályok, `equals` és  `hashCode()` metódusok, `Iterator`. A múlt heti csoportmunka feladata kollekciókkal megoldva.

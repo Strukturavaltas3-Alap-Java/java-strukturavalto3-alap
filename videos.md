@@ -143,3 +143,6 @@ Visszakérdezős konzultáció
 
 ## 2022.10.17.
 Kollekciók, belső osztályok, `equals` és  `hashCode()` metódusok, `Iterator`. A múlt heti csoportmunka feladata kollekciókkal megoldva.
+
+## 2022.10.18
+Hashelés és keresőfák

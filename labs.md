@@ -329,7 +329,7 @@ Adott az `utca.txt` állomány melyben egy-egy telek adatai találhatók:
 80018 Kurta 3 A 184
 12995 Malom 1 C 282
 ```
-Az első oszlopban a tulajdonos adószáma, majd utcanév, házszám, adósáv és négyzetméter. Fontos egy adószámhoz több ház is tartozhat. (File: `consultations/src/main/resources/utca.txt` 
+Az első oszlopban a tulajdonos adószáma, majd utcanév, házszám, adósáv és négyzetméter. Fontos egy adószámhoz több ház is tartozhat. (File: `consultations/src/main/resources/utca.txt`) 
 Feladatok:
 1. Olvasd be a memóriába a fájl tartalmát. 
 2. Bár az utcák többé-kevésbé párhuzamosak a tó partjával, az egyes porták távolsága a parttól
@@ -341,3 +341,10 @@ hogy minden utcában van legalább két telek és kihasználható, hogy az utcá
 összeget írassa ki a mintának megfelelően a `fizetendo.txt` állományba! A fájlban
 minden tulajdonos adatai új sorban szerepeljenek, a tulajdonos adószámát egy szóközzel
 elválasztva kövesse az általa fizetendő adó teljes összege.   
+
+# Week13 (2022.10.17-2022.10.21)
+
+## Day03
+Készíts egy `Student` nevű osztályt. Minden tanulónak van egy egyedi azonosítója és egy neve, ezeket konstruktorban állítjuk be. 
+Készíts egy `ClassNoteBook` nevű osztályt, amiben tanuló azonosítókat és a hozzájuk tartozó jegyek listáját tárolod, egy adatszerkezetben. Legyen egy `addStudent(Student student)` metódus amivel új tanulót lehet a naplóhoz adni, de csak id-t adjuk hozzá GDPR miatt. Ekkor a tanulónak még nincsenek jegyei.
+Legyen egy `addMark(int id, int mark)`, ami id alapján jegyet ad a tanulónak.  

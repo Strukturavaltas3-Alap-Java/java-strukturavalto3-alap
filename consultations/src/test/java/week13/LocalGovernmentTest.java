@@ -2,6 +2,8 @@ package week13;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import week13.day01.LocalGovernment;
+import week13.day01.Owner;
 
 import java.nio.file.Paths;
 import java.util.Map;

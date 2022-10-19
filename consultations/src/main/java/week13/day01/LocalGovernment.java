@@ -1,4 +1,4 @@
-package week13;
+package week13.day01;
 
 import java.io.IOException;
 import java.nio.file.Files;

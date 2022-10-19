@@ -146,3 +146,6 @@ Kollekciók, belső osztályok, `equals` és  `hashCode()` metódusok, `Iterator
 
 ## 2022.10.18
 Hashelés és keresőfák
+
+## 2022.10.19
+Map-es feladatmegoldás, PriorityQueue furcsaságai

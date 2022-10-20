@@ -1,6 +1,6 @@
 package week13.day03;
 
-public class Student {
+public class Student implements Comparable<Student>{
 
     private Long id;
     private String name;
@@ -46,4 +46,11 @@ public class Student {
     public int hashCode() {
         return id.hashCode();
     }
+
+    @Override
+    public int compareTo(Student o) {
+        return Long.compare(id, o.id);
+    }
+
+    //It is strongly recommended, but not strictly required that (x.compareTo(y)==0) == (x.equals(y)).
 }

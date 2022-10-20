@@ -32,27 +32,27 @@ public class Main {
 //            System.out.println(actual.getKey() + ": " + actual.getValue());
 //        }
 
-
-        Queue<Integer> numbers = new PriorityQueue<>();
-        numbers.add(2);
-        numbers.add(1);
-        numbers.add(10);
-        numbers.add(3);
-        numbers.add(1);
-
-        System.out.println(numbers);
-
-        System.out.println(numbers.remove());
-        System.out.println(numbers.remove());
-        System.out.println(numbers.remove());
-        System.out.println(numbers.remove());
-        System.out.println(numbers.remove());
-
-        Queue<Integer> numbersOther = new PriorityQueue<>(Arrays.asList(2,4,3,1));
-        Queue<Integer> numbersOther2 = new PriorityQueue<>(Arrays.asList(2,4,1,3));
-
-        System.out.println(numbersOther);
-        System.out.println(numbersOther2);
+//
+//        Queue<Integer> numbers = new PriorityQueue<>();
+//        numbers.add(2);
+//        numbers.add(1);
+//        numbers.add(10);
+//        numbers.add(3);
+//        numbers.add(1);
+//
+//        System.out.println(numbers);
+//
+//        System.out.println(numbers.remove());
+//        System.out.println(numbers.remove());
+//        System.out.println(numbers.remove());
+//        System.out.println(numbers.remove());
+//        System.out.println(numbers.remove());
+//
+//        Queue<Integer> numbersOther = new PriorityQueue<>(Arrays.asList(2,4,3,1));
+//        Queue<Integer> numbersOther2 = new PriorityQueue<>(Arrays.asList(2,4,1,3));
+//
+//        System.out.println(numbersOther);
+//        System.out.println(numbersOther2);
 
 
     }

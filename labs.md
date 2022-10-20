@@ -348,3 +348,6 @@ elválasztva kövesse az általa fizetendő adó teljes összege.
 Készíts egy `Student` nevű osztályt. Minden tanulónak van egy egyedi azonosítója és egy neve, ezeket konstruktorban állítjuk be. 
 Készíts egy `ClassNoteBook` nevű osztályt, amiben tanuló azonosítókat és a hozzájuk tartozó jegyek listáját tárolod, egy adatszerkezetben. Legyen egy `addStudent(Student student)` metódus amivel új tanulót lehet a naplóhoz adni, de csak id-t adjuk hozzá GDPR miatt. Ekkor a tanulónak még nincsenek jegyei.
 Legyen egy `addMark(int id, int mark)`, ami id alapján jegyet ad a tanulónak.  
+
+## Day04
+Írj egy metódust, ami paraméterül vár egy angol szöveget és visszaad egy Map-et. A mapben a kulcsok a magánhangzók, azérték pedig az, amennyi van a szövegben. Ha egy magánhangzó nincs a szövegben akkor az ne legyen része a mapnek.

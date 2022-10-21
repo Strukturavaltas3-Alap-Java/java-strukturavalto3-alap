@@ -149,3 +149,9 @@ Hashelés és keresőfák
 
 ## 2022.10.19
 Map-es feladatmegoldás, PriorityQueue furcsaságai
+
+## 2022.10.20
+Queue
+
+## 2022.10.21
+Két gyakorlati feladat közös megoldása és Clean Code gyakorlófeladat.

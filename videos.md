@@ -155,3 +155,6 @@ Queue
 
 ## 2022.10.21
 Két gyakorlati feladat közös megoldása és Clean Code gyakorlófeladat.
+
+## 2022.10.24
+Kollekciók rendezése

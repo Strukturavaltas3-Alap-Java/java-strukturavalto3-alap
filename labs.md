@@ -351,3 +351,11 @@ Legyen egy `addMark(int id, int mark)`, ami id alapján jegyet ad a tanulónak.
 
 ## Day04
 Írj egy metódust, ami paraméterül vár egy angol szöveget és visszaad egy Map-et. A mapben a kulcsok a magánhangzók, azérték pedig az, amennyi van a szövegben. Ha egy magánhangzó nincs a szövegben akkor az ne legyen része a mapnek.
+
+# Week14 (2022.10.24-2022.10.28)
+
+## Day01
+Készíts egy osztályt `AgeSorter` néven, melynek van egy `int[] sortAges(int[] ages)` metódusa!
+Az `ages` tömbben emberek életkorai szerepelnek. A feladat az, hogy visszaadj egy tömböt,
+mely az életkorokat tartalmazza sorrendbe rendezve. Ne használj beépített sorrendbe rendező
+algoritmusokat (pl. `Collections.sort()`) a feladat megoldásához!

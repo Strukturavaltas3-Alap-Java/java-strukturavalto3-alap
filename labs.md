@@ -359,3 +359,10 @@ Készíts egy osztályt `AgeSorter` néven, melynek van egy `int[] sortAges(int[
 Az `ages` tömbben emberek életkorai szerepelnek. A feladat az, hogy visszaadj egy tömböt,
 mely az életkorokat tartalmazza sorrendbe rendezve. Ne használj beépített sorrendbe rendező
 algoritmusokat (pl. `Collections.sort()`) a feladat megoldásához!
+
+## Day02
+Készíts egy `Brackets` (zárójelek) nevű osztályt melyben legyen egy metódus ami eldönti, hogy a paraméterül kapott `String`-ben helyesen szerepelnek-e a zárójelek. A kifejezésben csak zárójelek vannak vagy `()` vagy`[]` vagy `{}`. Példák: 
+* "(([]){})" - Helyes
+* "([]){}" - Helyes
+* "([)]" - Helytelen
+* {(]} - Helytelen 

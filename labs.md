@@ -366,3 +366,6 @@ Készíts egy `Brackets` (zárójelek) nevű osztályt melyben legyen egy metód
 * "([]){}" - Helyes
 * "([)]" - Helytelen
 * {(]} - Helytelen 
+
+## Day03
+A `Client` osztály reprezentál egy ügyfelet `name` és `regNumber` attribútummal (String). A második a regisztrációs száma, mely egyedileg azonosít egy ügyfelet. Írj egy Clients osztályt, mely az ügyfeleket tartja nyilván egy listában. Lehessen ehhez a listához ügyfelet hozzáadni. Regisztrációs szám alapján le kell tudni kérdezni egy ügyfelet a findByRegNumber(String) metódussal. Dobjon IllegalArgumentException-t, ha nincs. Fontos, hogy nagyon gyors legyen a lekérdezés a regisztrációs szám alapján!

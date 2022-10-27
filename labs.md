@@ -390,4 +390,4 @@ Feladatok:
 3. Adjuk vissza annak a versenyzőnek a kódját, aki a legtöbb pontot szerezte. Pont a helyes válaszért jár méghozzá annyi, ahányadik kérdés volt a sorban. Az első kérdés egy pontos a második kettő stb.
 Bonusz: X az 0 pont, de a rossz válasz -2.    
 
-Fájl elérés: `consultations/src/main/resources/result.txt
+Fájl elérés: `consultations/src/test/resources/result.txt`

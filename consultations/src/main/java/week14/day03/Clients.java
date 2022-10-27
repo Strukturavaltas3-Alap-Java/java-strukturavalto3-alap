@@ -64,6 +64,11 @@ public class Clients {
         return clients;
     }
 
+    public List<Client> getAllClients(){
+        List<Client> newClients = new ArrayList<>(clients);
+        Collections.copy(newClients,clients);
+        return newClients;
+    }
 
     public static void main(String[] args) {
         Clients c = new Clients();
@@ -72,6 +77,7 @@ public class Clients {
         c.addClient(new Client("Jane","3"));
         c.addClient(new Client("Jill","2"));
         c.addClient(new Client("Jasmine","5"));
+        System.out.println(c.getAllClients());
         System.out.println(c.getOriginalClientsNewList());
         System.out.println(c.getOriginalClients());
         System.out.println(c.getClients());

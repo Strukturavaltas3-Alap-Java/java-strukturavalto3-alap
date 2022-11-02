@@ -158,3 +158,22 @@ Két gyakorlati feladat közös megoldása és Clean Code gyakorlófeladat.
 
 ## 2022.10.24
 Kollekciók rendezése
+
+## 2022.10.25
+`Deque` (stack), buborék rendezés
+
+## 2022.10.26
+Bináris keresés
+
+## 2022.10.27
+Csoportmunka
+
+## 2022.10.28
+Bevezetés a streamek használatába.
+
+## 2022.11.02
+* Mikor használunk for-ciklust és mikor streamet?
+* Röviden az `Optional` osztályról.
+* Számok összehasonlítása
+* Hogyan lesz a lambda kifejezés a `Comparator` osztály egy példányából?
+* Person objektumok sorba rendezése név alapján (magyar ábécé szerinti sorrend)

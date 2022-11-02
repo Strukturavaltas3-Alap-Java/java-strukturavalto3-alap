@@ -391,3 +391,19 @@ Feladatok:
 Bonusz: X az 0 pont, de a rossz válasz -2.    
 
 Fájl elérés: `consultations/src/test/resources/result.txt`
+
+# Week15 (2022.11.02-2022.11.04)
+
+## Day03
+Az alábbi linken adott három osztály: 
+[konzultációs feladat kiírása](https://github.com/Strukturavaltas3-Alap-Java/java-strukturavalto3-alap/tree/main/consultations/src/main/java/week15/day03)
+
+Az `OrderService` osztályban valósítsd meg a következő metódusokat:
+
+* Add vissza azokat a rendeléseket, amelyek a paraméterként megadott státuszúak
+  és a paraméterként megadott dátummal megegyező keltezésűek!
+* Határozd meg a rendelések darabszámát egy paraméterként kapott státusz alapján!
+* Van-e olyan rendelés, amiben kevesebb mint a megadott számú termék található?
+* Add vissza, mely napokon voltak megrendelések (a duplikátumokat szűrd ki!)
+
+A mellékelt tesztosztályban írj teszteseteket is!

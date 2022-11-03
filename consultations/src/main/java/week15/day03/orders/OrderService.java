@@ -47,6 +47,21 @@ public class OrderService {
     }
 
     //    Van-e olyan rendelés, amiben kevesebb mint a megadott számú termék található?
+    public boolean isOrderWithProductsLessThanGiven(int numberOfProducts) {
+        return orders.stream()
+                .filter(order -> order.getProducts().size() < numberOfProducts)
+                .findFirst()
+                .isPresent();
+    }
 
     //    Add vissza, mely napokon voltak megrendelések (a duplikátumokat szűrd ki!)
+    public List<LocalDate> listOrderDates() {
+        return orders.stream()
+                .map(order -> order.getOrderDate())
+                .distinct()
+                .toList();
+    }
+
+//   Add vissza, hány terméket tartalmaz a legtöbb terméket tartalmazó rendelés!
+// Add vissza a rendeléseket egy dátum szerint sorba rendezett listában!
 }

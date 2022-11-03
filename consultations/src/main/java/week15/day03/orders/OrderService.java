@@ -96,4 +96,7 @@ public class OrderService {
             }
         }
     }
+
+// Add vissza a paraméterként megadott kategóriájú termékeket!
+// Add vissza a megadott árnál drágább termékeket!
 }

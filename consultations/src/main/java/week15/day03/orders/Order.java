@@ -1,4 +1,4 @@
-package week15.day03;
+package week15.day03.orders;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

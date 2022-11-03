@@ -1,10 +1,15 @@
-package week15.day03;
+package week15.day03.orders;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import week15.day03.orders.Order;
+import week15.day03.orders.OrderService;
+import week15.day03.orders.Product;
 
 import java.time.LocalDate;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class OrderServiceTest {
 
@@ -50,5 +55,17 @@ class OrderServiceTest {
         orderService.saveOrder(o3);
         orderService.saveOrder(o4);
         orderService.saveOrder(o5);
+    }
+
+    @Test
+    void testGetOrdersByStatusAndDate() {
+        List<Order> expected = orderService.getOrdersByStatusAndDate("pending", LocalDate.of(2021, 06, 07));
+
+        assertEquals(3,  expected.size());
+    }
+
+    @Test
+    void testGetNumberOfOrdersByStatus() {
+        assertEquals(4, orderService.getNumberOfOrdersByStatus("pending"));
     }
 }

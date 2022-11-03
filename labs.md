@@ -407,3 +407,71 @@ Az `OrderService` osztályban valósítsd meg a következő metódusokat:
 * Add vissza, mely napokon voltak megrendelések (a duplikátumokat szűrd ki!)
 
 A mellékelt tesztosztályban írj teszteseteket is!
+
+## Day04
+Az előző napi feladat folytatása.
+
+Az `OrderService` osztályban valósítsd meg a következő metódusokat:
+
+* Add vissza, hány terméket tartalmaz a legtöbb terméket tartalmazó rendelés!
+* Add vissza a rendeléseket egy dátum szerint sorba rendezett listában!
+* Alakítsd át az alábbi metódus utasításait egy stream-mé!
+
+```java
+public List<Order> listOrdersBeforeDate(LocalDate date) {
+    List<Order> result = new ArrayList<>();
+    for(Order order : orders) {
+        if (order.getOrderDate().isBefore(date)) {
+            result.add(order);
+        }
+    }
+    return result;
+}
+```
+
+* Alakítsd át az alábbi metódus utasításait egy stream-mé!
+
+```java
+public void addProductToOrders(String status, Product product) {
+    for(Order order : orders) {
+        if (order.getStatus().equals(status)) {
+            order.addProduct(product);
+        }
+    }
+}
+```
+
+* Add vissza a paraméterként megadott kategóriájú termékeket!
+* Add vissza a megadott árnál drágább termékeket!
+* Alakítsd át az alábbi metódus utasításait egy stream-mé!
+
+```java
+public List<String> listProductsCategories() {
+    Set<String> categories = new HashSet<>();
+    for(Order order : orders) {
+        for(Product product : order.getProducts()) {
+            categories.add(product.getCategory());
+        }
+    }
+    return new ArrayList<>(categories);
+}
+```
+
+* Alakítsd át az alábbi metódus utasításait egy stream-mé!
+
+```java
+public double getProductsPricesAverage() {
+    double average = 0.0;
+    int count = 0;
+    for(Order order : orders) {
+        for(Product product : order.getProducts()) {
+            count++;
+            average += product.getPrice();
+        }
+    }
+    return average / count;
+}
+```
+
+* Add vissza az összes terméket egy ehhez hasonló szöveges formában: "termék neve : termék ára"
+* Add vissza a leghosszabb nevű termék nevét!

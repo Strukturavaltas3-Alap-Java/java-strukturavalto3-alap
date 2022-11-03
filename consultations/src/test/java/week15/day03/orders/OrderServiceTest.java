@@ -68,4 +68,61 @@ class OrderServiceTest {
     void testGetNumberOfOrdersByStatus() {
         assertEquals(4, orderService.getNumberOfOrdersByStatus("pending"));
     }
+
+    @Test
+    void testIsOrderWithProductsLessThanGiven() {
+        assertTrue(orderService.isOrderWithProductsLessThanGiven(4));
+        assertFalse(orderService.isOrderWithProductsLessThanGiven(2));
+    }
+
+    @Test
+    void testListOrderDates() {
+        List<LocalDate> expected = orderService.listOrderDates();
+
+        assertEquals(2, expected.size());
+        assertTrue(expected.contains(LocalDate.of(2021, 6, 1)));
+        assertTrue(expected.contains(LocalDate.of(2021, 6, 7)));
+    }
+
+    @Test
+    void testGetMaxProducts() {
+        assertEquals(4, orderService.getMaxProducts());
+    }
+
+    @Test
+    void testListOrdersByOrderDate() {
+        List<Order> expected = orderService.listOrdersByOrderDate();
+
+        assertEquals(5, expected.size());
+        assertEquals(LocalDate.of(2021, 6, 1), expected.get(1).getOrderDate());
+        assertEquals(LocalDate.of(2021, 6, 7), expected.get(3).getOrderDate());
+    }
+
+    @Test
+    void testListOrdersBeforeDate() {
+        List<Order> expected = orderService.listOrdersBeforeDate(LocalDate.of(2021, 6, 5));
+
+        assertEquals(2, expected.size());
+    }
+
+    @Test
+    void testAddProductToOrders() {
+        orderService.addProductToOrders("on delivery", new Product("phone", "IT", 300));
+
+        assertEquals(4, orderService.getOrders().get(1).getProducts().size());
+    }
+
+    @Test
+    void testListProductsByCategory() {
+        List<Product> expected = orderService.listProductsByCategory("IT");
+
+        assertEquals(3, expected.size());
+    }
+
+    @Test
+    void testListProductsOverPrice() {
+        List<Product> expected = orderService.listProductsOverPrice(1500);
+
+        assertEquals(2, expected.size());
+    }
 }

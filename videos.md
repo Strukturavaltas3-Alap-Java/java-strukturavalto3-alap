@@ -177,3 +177,6 @@ Bevezetés a streamek használatába.
 * Számok összehasonlítása
 * Hogyan lesz a lambda kifejezés a `Comparator` osztály egy példányából?
 * Person objektumok sorba rendezése név alapján (magyar ábécé szerinti sorrend)
+
+## 2022.11.03
+Stream gyakorlófeladatok

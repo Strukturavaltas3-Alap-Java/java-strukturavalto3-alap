@@ -63,5 +63,37 @@ public class OrderService {
     }
 
 //   Add vissza, hány terméket tartalmaz a legtöbb terméket tartalmazó rendelés!
-// Add vissza a rendeléseket egy dátum szerint sorba rendezett listában!
+    public int getMaxProducts() {
+        return orders.stream()
+                .mapToInt(order -> order.getProducts().size())
+                .max()
+                .orElseThrow(() -> new IllegalArgumentException("No such order"));
+    }
+
+//   Add vissza a rendeléseket egy dátum szerint sorba rendezett listában!
+    public List<Order> listOrdersByOrderDate() {
+        return orders.stream()
+                .sorted(Comparator.comparing(Order::getOrderDate))
+                .toList();
+    }
+
+//    Alakítsd át az alábbi metódus utasításait egy stream-mé!
+    public List<Order> listOrdersBeforeDate(LocalDate date) {
+        List<Order> result = new ArrayList<>();
+        for(Order order : orders) {
+            if (order.getOrderDate().isBefore(date)) {
+                result.add(order);
+            }
+        }
+        return result;
+    }
+
+//    Alakítsd át az alábbi metódus utasításait egy stream-mé!
+    public void addProductToOrders(String status, Product product) {
+        for(Order order : orders) {
+            if (order.getStatus().equals(status)) {
+                order.addProduct(product);
+            }
+        }
+    }
 }

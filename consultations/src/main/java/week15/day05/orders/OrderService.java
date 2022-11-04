@@ -1,9 +1,10 @@
-package week15.day03.orders;
-
-import week15.day03.orders.Order;
+package week15.day05.orders;
 
 import java.time.LocalDate;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class OrderService {
@@ -19,37 +20,23 @@ public class OrderService {
     }
 
     //    Add vissza azokat a rendeléseket, amelyek a paraméterként megadott státuszúak
-    //    és a paraméterként megadott dátummal megegyező keltezésűek!
+//    és a paraméterként megadott dátummal megegyező keltezésűek!
     public List<Order> getOrdersByStatusAndDate(String status, LocalDate date) {
-//        List<Order> result = new ArrayList<>();
-//        for (Order o : orders) {
-//            if (o.getStatus().equals(status) && o.getOrderDate().equals(date)) {
-//                result.add(o);
-//            }
-//        }
-//        return result;
-
         return orders.stream()
-                .filter(o -> o.getStatus().equals(status) && o.getOrderDate().equals(date))
+                .filter(order -> order.getStatus().equals(status))
+                .filter(order -> order.getOrderDate().equals(date))
                 .collect(Collectors.toList());
     }
 
-    //    Határozd meg a rendelések darabszámát egy paraméterként kapott státusz alapján!
-    public long getNumberOfOrdersByStatus(String status) {
-//        int count = 0;
-//        for (Order o :orders) {
-//            if (o.getStatus().equals(status)) {
-//                count++;
-//            }
-//        }
-//        return count;
-
+//    Határozd meg a rendelések darabszámát egy paraméterként kapott státusz alapján!
+    public int getNumberOfOrdersByStatus(String status) {
         return orders.stream()
-                .filter(o -> o.getStatus().equals(status))
-                .count();
+                .filter(order -> order.getStatus().equals(status))
+                .collect(Collectors.toList())
+                .size();
     }
 
-    //    Van-e olyan rendelés, amiben kevesebb mint a megadott számú termék található?
+//    Van-e olyan rendelés, amiben kevesebb mint a megadott számú termék található?
     public boolean isOrderWithProductsLessThanGiven(int numberOfProducts) {
         return orders.stream()
                 .filter(order -> order.getProducts().size() < numberOfProducts)
@@ -57,15 +44,15 @@ public class OrderService {
                 .isPresent();
     }
 
-    //    Add vissza, mely napokon voltak megrendelések (a duplikátumokat szűrd ki!)
+//    Add vissza, mely napokon voltak megrendelések (a duplikátumokat szűrd ki!)
     public List<LocalDate> listOrderDates() {
         return orders.stream()
                 .map(order -> order.getOrderDate())
                 .distinct()
-                .toList();
+                .collect(Collectors.toList());
     }
 
-//   Add vissza, hány terméket tartalmaz a legtöbb terméket tartalmazó rendelés!
+//    Add vissza, hány terméket tartalmaz a legtöbb terméket tartalmazó rendelés!
     public int getMaxProducts() {
 //        return orders.stream()
 //                .mapToInt(order -> order.getProducts().size())
@@ -80,10 +67,10 @@ public class OrderService {
         }
     }
 
-//   Add vissza a rendeléseket egy dátum szerint sorba rendezett listában!
+//    Add vissza a rendeléseket egy dátum szerint sorba rendezett listában!
     public List<Order> listOrdersByOrderDate() {
         return orders.stream()
-                .sorted(Comparator.comparing(Order::getOrderDate))
+                .sorted((order, other) -> order.getOrderDate().compareTo(other.getOrderDate()))
                 .toList();
     }
 
@@ -99,7 +86,7 @@ public class OrderService {
 
         return orders.stream()
                 .filter(order -> order.getOrderDate().isBefore(date))
-                .toList();
+                .collect(Collectors.toList());
     }
 
 //    Alakítsd át az alábbi metódus utasításait egy stream-mé!
@@ -124,8 +111,8 @@ public class OrderService {
                 .toList();
     }
 
-// Add vissza a megadott árnál drágább termékeket!
-    public List<Product> listProductsOverPrice(double price) {
+//    Add vissza a megadott árnál drágább termékeket!
+    public List<Product> listProductsOverPrice(int price){
         return orders.stream()
                 .flatMap(order -> order.getProducts().stream())
                 .distinct()
@@ -164,10 +151,10 @@ public class OrderService {
 //        return average / count;
 
         return orders.stream()
-                .flatMap(order -> order.getProducts().stream())
-                .mapToDouble(product -> product.getPrice())
-                .average()
-                .orElseThrow(() -> new IllegalArgumentException("No products"));
+              .flatMap(order -> order.getProducts().stream())
+              .mapToDouble(product -> product.getPrice())
+              .average()
+              .orElseThrow(() -> new IllegalArgumentException("No products"));
     }
 
 //    Add vissza az összes terméket egy ehhez hasonló szöveges formában: "termék neve : termék ára"

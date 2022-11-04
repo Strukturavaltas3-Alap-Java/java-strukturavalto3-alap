@@ -180,3 +180,10 @@ Bevezetés a streamek használatába.
 
 ## 2022.11.03
 Stream gyakorlófeladatok
+
+## 2022.11.04
+* Tegnapi feladatok megoldása
+* Egy régi feladat metódusainak átírása stream-esre (`schoolrecords.ClassRecords`)
+* Stream készítése különböző kollekciókból, illetve különböző kollekciók, mint a stream végeredménye.
+* `Files.lines()`
+* Stream Clean Code

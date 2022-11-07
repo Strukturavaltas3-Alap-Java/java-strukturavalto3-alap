@@ -187,3 +187,6 @@ Stream gyakorlófeladatok
 * Stream készítése különböző kollekciókból, illetve különböző kollekciók, mint a stream végeredménye.
 * `Files.lines()`
 * Stream Clean Code
+
+## 2022.11.07
+Néhány rövid kérdés megbeszélése és gyakorló vizsgafeladat.

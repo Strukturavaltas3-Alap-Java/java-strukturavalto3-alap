@@ -58,7 +58,7 @@ class CityTest {
 
     @Test
     void testIsThereBiggerAreaThanInStreet() {
-        Assertions.assertTrue(city.isThereBiggerAreInStreetThan("Petofi", 159));
-        Assertions.assertFalse(city.isThereBiggerAreInStreetThan("Kossuth", 160));
+        Assertions.assertTrue(city.isThereBiggerAreaInStreetThan("Petofi", 159));
+        Assertions.assertFalse(city.isThereBiggerAreaInStreetThan("Kossuth", 160));
     }
 }

@@ -31,7 +31,7 @@ A `City` osztályban valósítsd meg a következő metódusokat __streamek__ has
 - Add vissza az utcaneveket amik szerepelnek a listában, mindegyiket egyszer!
 - Add vissza, hogy van-e egy bizonyos négyzetméternél nagyobb alapterületű épület egy utcában!
 
-## Filekezelés (25 pont)
+## Filekezelés (20 pont)
 
 Ebben a feladatban a Bajnokok Ligája 2022/23-as szezon csoportkörének néhány meccséből készítünk statisztikát. Adott egy file, az
 `input.txt`, melyben egy sor a következőképpen néz ki: `{dátum};{egyik csapat}-{másik csapat}`. A feladatod a fájl feldolgozása 
@@ -40,7 +40,7 @@ Készítsd el a `files.ChampionsLeagueService` nevű osztályt, melyben definiá
 egy csapatnév legyen, értéke pedig az, hogy mely napokon játszott! Olvasd be a fájl tartalmát, úgy hogy az adatszerkezet 
 kulcsai ABC sorrendben rendezettek legyenek!
 
-## Műveletek kollekciókon (20 pont)
+## Műveletek kollekciókon (25 pont)
 
 A következő feladatokat a `files.ChampionsLeagueService` osztályban kell megvalósítanod. A megvalósításhoz __nem kötelező__
 streamek-et használnod. Se plusz se minuszpont nem jár érte.

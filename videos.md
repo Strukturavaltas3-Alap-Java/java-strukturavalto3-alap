@@ -190,3 +190,7 @@ Stream gyakorlófeladatok
 
 ## 2022.11.07
 Néhány rövid kérdés megbeszélése és gyakorló vizsgafeladat.
+
+## 2022.11.08
+
+Visszakérdezős konzultáció.

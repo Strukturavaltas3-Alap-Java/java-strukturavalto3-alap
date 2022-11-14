@@ -1,1 +1,0 @@
-Ide jön majd a pót-pót vizsga, ha egyáltalán szükség lesz rá.

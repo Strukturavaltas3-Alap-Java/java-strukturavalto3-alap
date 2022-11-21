@@ -196,3 +196,8 @@ Visszakérdezős konzultáció.
 
 ## 2022.11 14-18
 SQL hét
+
+## 2022.11.21
+Adatbáziskezelés Javaban, az első lépések.
+
+`INSERT` és `SELECT`

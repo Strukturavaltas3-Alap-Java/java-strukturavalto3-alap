@@ -192,5 +192,7 @@ Stream gyakorlófeladatok
 Néhány rövid kérdés megbeszélése és gyakorló vizsgafeladat.
 
 ## 2022.11.08
-
 Visszakérdezős konzultáció.
+
+## 2022.11 14-18
+SQL hét

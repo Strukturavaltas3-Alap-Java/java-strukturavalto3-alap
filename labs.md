@@ -142,6 +142,7 @@ Készíts egy `UserRepository` nevű osztályt, melyben legyen egy lista felhasz
 Adott egy fájl, melyben egy elsős diák tanévkezdésre beszerzendő tanszereinek
 leírása található. A fájl tartalma:
 
+
 ```java
 3;négyzetrácsos füzet;kis alakú
 2;vonalas füzet;elsős(14-32), kis alakú
@@ -475,3 +476,25 @@ public double getProductsPricesAverage() {
 
 * Add vissza az összes terméket egy ehhez hasonló szöveges formában: "termék neve : termék ára"
 * Add vissza a leghosszabb nevű termék nevét!
+
+# Week18 (2022.11.21-2022.11.25)
+
+## Day03
+
+Hozz létre egy adatbázis schema-t és benne egy `fifa_world_cup` nevű táblát amiben a VB meccseit fogjuk nyilván tartani. 
+A tábla oszlopai:
+- azonsoító (adatbázis generálja)
+- Meccs napja (elég az év hónap nap)
+- Egyik csapat
+- Másik csapat
+- Egyik csapat gólszáma
+- Másik csapat gólszáma
+
+Hozz létre egy `FifaWorldCupMain` nevű osztályt, amiben beállítod a kapcsolatot az adatbázis és a tábla között.  
+Készíts egy `Game` nevű osztályt, ami az adatbázis egy sorát reprezentálja. 
+Hozz létre egy `FifaWorldCupRepository` nevű osztályt melynek adattagja egy `DataSource`, amit konstruktorban
+kap meg.
+Ebben az osztályban készítsd el a következő metódusokat:
+- Lehessen egy meccset beszúrni az adatbázisba
+
+

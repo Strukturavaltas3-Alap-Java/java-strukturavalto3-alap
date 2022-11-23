@@ -490,9 +490,9 @@ A tábla oszlopai:
 - Egyik csapat gólszáma
 - Másik csapat gólszáma
 
-Hozz létre egy `FifaWorldCupMain` nevű osztályt, amiben beállítod a kapcsolatot az adatbázis és a tábla között.  
+Hozz létre egy `FifaWorldCupMain` nevű osztályt, amiben beállítod a kapcsolatot az adatbázis és a program között.  
 Készíts egy `Game` nevű osztályt, ami az adatbázis egy sorát reprezentálja. 
-Hozz létre egy `FifaWorldCupRepository` nevű osztályt melynek adattagja egy `DataSource`, amit konstruktorban
+Hozz létre egy `FifaWorldCupRepository` nevű osztályt, melynek adattagja egy `DataSource`, amit konstruktorban
 kap meg.
 Ebben az osztályban készítsd el a következő metódusokat:
 - Lehessen egy meccset beszúrni az adatbázisba

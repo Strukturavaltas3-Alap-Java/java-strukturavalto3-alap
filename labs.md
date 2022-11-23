@@ -497,5 +497,5 @@ kap meg.
 Ebben az osztályban készítsd el a következő metódusokat:
 - Lehessen egy meccset beszúrni az adatbázisba
 - Kérjük le a meccseket egy dátum alapján
-- mennyi a legtöbb gól ami egy meccsen esett!
-
+- Mennyi a legtöbb gól ami egy meccsen esett!
+- Melyik meccsen esett a legtöbb gól!

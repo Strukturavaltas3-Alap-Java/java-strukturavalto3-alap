@@ -496,5 +496,6 @@ Hozz létre egy `FifaWorldCupRepository` nevű osztályt, melynek adattagja egy 
 kap meg.
 Ebben az osztályban készítsd el a következő metódusokat:
 - Lehessen egy meccset beszúrni az adatbázisba
+- Kérjük le a meccseket egy dátum alapján
 
 

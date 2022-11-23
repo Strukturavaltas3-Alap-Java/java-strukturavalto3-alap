@@ -499,3 +499,4 @@ Ebben az osztályban készítsd el a következő metódusokat:
 - Kérjük le a meccseket egy dátum alapján
 - Mennyi a legtöbb gól ami egy meccsen esett!
 - Melyik meccsen esett a legtöbb gól!
+- Add vissza, hogy mely csapatok játszottak eddig mérkőzést!

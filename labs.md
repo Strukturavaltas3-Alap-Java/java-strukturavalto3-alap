@@ -500,3 +500,11 @@ Ebben az osztályban készítsd el a következő metódusokat:
 - Mennyi a legtöbb gól ami egy meccsen esett!
 - Melyik meccsen esett a legtöbb gól!
 - Add vissza, hogy mely csapatok játszottak eddig mérkőzést!
+
+# Week18 (2022.11.28-2022.12.02)
+
+## Day01
+
+Egészítsd ki az előző feladat kódját a szükséges helyeken úgy, hogy az adatbázisba be tudjon kerülni minden 
+egyes meccs helyszíne is! (A tábla módosítását elegendő úgy megoldani, hogy eldobod az előző táblát és 
+létrehozod az újat.)

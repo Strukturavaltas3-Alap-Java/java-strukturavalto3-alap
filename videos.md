@@ -198,6 +198,7 @@ Visszakérdezős konzultáció.
 SQL hét
 
 ## 2022.11.21
-Adatbáziskezelés Javaban, az első lépések.
+Adatbáziskezelés Javaban, az első lépések. `INSERT` és `SELECT`
 
-`INSERT` és `SELECT`
+## 2022.11.28
+CRUD műveletek implementálása listával és adatbázissal, Flyway beállítása, önálló feladat és annak megoldása.

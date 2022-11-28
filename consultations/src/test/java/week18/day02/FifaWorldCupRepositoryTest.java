@@ -17,9 +17,9 @@ class FifaWorldCupRepositoryTest {
     void init(){
         MariaDbDataSource dataSource = new MariaDbDataSource();
         try{
-            dataSource.setUrl("jdbc:mariadb://localhost:3306/fifadb?useUnicode=true");
-            dataSource.setUser("fifa");
-            dataSource.setPassword("fifa");
+            dataSource.setUrl("jdbc:mariadb://localhost:3306/employees?useUnicode=true");
+            dataSource.setUser("employees");
+            dataSource.setPassword("employees");
         }catch (SQLException se){
             throw new IllegalStateException("Cannot connect!",se);
         }
@@ -34,7 +34,7 @@ class FifaWorldCupRepositoryTest {
 
     @Test
     void testInsertAndGet(){
-        fifaWorldCupRepository.insertGame(new Game(LocalDate.of(2022,11,24),"Uruguay","South Korea",0,0));
+        fifaWorldCupRepository.insertGame(new Game(LocalDate.of(2022,11,24), "Budapest","Uruguay","South Korea",0,0));
 
        // Optional<Game> result = fifaWorldCupRepository.findGameById(1L);
 

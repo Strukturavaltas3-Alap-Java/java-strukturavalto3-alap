@@ -18,13 +18,14 @@ public class FifaWorldCupRepository {
     public void insertGame(Game game) {
         try (Connection conn = dataSource.getConnection();
              PreparedStatement ps = conn.prepareStatement(
-                     "insert into fifa_world_cup (date_of_game, first_team, second_team, first_team_score, second_team_score) values(?,?,?,?,?)"
+                     "insert into fifa_world_cup (date_of_game, place_of_game, first_team, second_team, first_team_score, second_team_score) values(?,?,?,?,?,?)"
              )) {
             ps.setDate(1, Date.valueOf(game.getDateOfGame()));
-            ps.setString(2, game.getFirstTeam());
-            ps.setString(3, game.getSecondTeam());
-            ps.setInt(4, game.getFirstTeamScore());
-            ps.setInt(5, game.getSecondTeamScore());
+            ps.setString(2, game.getPlaceOfGame());
+            ps.setString(3, game.getFirstTeam());
+            ps.setString(4, game.getSecondTeam());
+            ps.setInt(5, game.getFirstTeamScore());
+            ps.setInt(6, game.getSecondTeamScore());
             ps.executeUpdate();
         } catch (SQLException se) {
             throw new IllegalStateException("Cannot connect!", se);
@@ -63,11 +64,12 @@ public class FifaWorldCupRepository {
             while (rs.next()) {
                 Long id = rs.getLong("id");
                 LocalDate dateOfGame = rs.getDate("date_of_game").toLocalDate();
+                String placeOfGame = rs.getString("place_of_game");
                 String firstTeam = rs.getString("first_team");
                 String secondTeam = rs.getString("second_team");
                 int firstTeamScore = rs.getInt("first_team_score");
                 int secondTeamScore = rs.getInt("second_team_score");
-                Game game = new Game(id, dateOfGame, firstTeam, secondTeam, firstTeamScore, secondTeamScore);
+                Game game = new Game(id, dateOfGame, placeOfGame, firstTeam, secondTeam, firstTeamScore, secondTeamScore);
                 result.add(game);
             }
         }

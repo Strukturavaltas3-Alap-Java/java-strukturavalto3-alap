@@ -501,7 +501,7 @@ Ebben az osztályban készítsd el a következő metódusokat:
 - Melyik meccsen esett a legtöbb gól!
 - Add vissza, hogy mely csapatok játszottak eddig mérkőzést!
 
-# Week18 (2022.11.28-2022.12.02)
+# Week19 (2022.11.28-2022.12.02)
 
 ## Day01
 

@@ -200,5 +200,20 @@ SQL hét
 ## 2022.11.21
 Adatbáziskezelés Javaban, az első lépések. `INSERT` és `SELECT`
 
+## 2022.11.22   
+Adatbáziskezelés alapok
+
+## 2022.11.23  
+Adatbázis kezelés lekérdezések
+
+## 2022.11.24
+Adatbázis kezelés lekérdezések
+
+## 2022.11.25
+Tranzakciókezelés, generált azonosító lekérdezése
+ 
 ## 2022.11.28
 CRUD műveletek implementálása listával és adatbázissal, Flyway beállítása, önálló feladat és annak megoldása.
+
+## 2022.11.29
+Tranzakció kezeléses jdbc feladat (Activity)

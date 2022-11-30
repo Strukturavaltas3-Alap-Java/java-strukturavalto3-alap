@@ -508,3 +508,47 @@ Ebben az osztályban készítsd el a következő metódusokat:
 Egészítsd ki az előző feladat kódját a szükséges helyeken úgy, hogy az adatbázisba be tudjon kerülni minden 
 egyes meccs helyszíne is! (A tábla módosítását elegendő úgy megoldani, hogy eldobod az előző táblát és 
 létrehozod az újat.)
+
+# Day03
+Ebben az adatbáziskezelős feladatban két táblára lesz szükség. Az egyik a tanulók a másik az iskolák.  
+
+Az iskola adatai:
+- id
+- iskola neve
+- város
+
+A tanuló adatai:
+- id
+- tanuló neve
+- évfolyama
+- iskola azonosító (ahova jár)
+
+A táblák létrehozása:
+
+```sql
+create table schools
+(
+    id          bigint auto_increment,
+    school_name varchar(255),
+    city        varchar(255),
+    constraint pk_school primary key (id)
+);
+
+create table students
+(
+    id           bigint auto_increment,
+    student_name varchar(255),
+    student_year bigint,
+    school_id    bigint,
+    primary key (id),
+    Constraint fk_school_student FOREIGN KEY (school_id)
+        REFERENCES schools (id)
+);
+```
+
+Hozzd létre a táblákat, és táblák egy sorát reprezentáló osztályokat.
+Az iskola osztályban legyen egy tanulók listája, de lehessen létrehozni iskolát-e nélkül is.  
+Szúrj be egy iskolát az adtabázisba. Az alkalmazásarchitektúrát a tanultaknak megfelelően alakítsd ki.
+
+
+

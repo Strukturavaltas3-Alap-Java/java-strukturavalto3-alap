@@ -217,3 +217,6 @@ CRUD műveletek implementálása listával és adatbázissal, Flyway beállítá
 
 ## 2022.11.29
 Tranzakció kezeléses jdbc feladat (Activity)
+
+## 2022.11.30
+Több tábla managelése, beszúrás lekérdezés jdbc templattel

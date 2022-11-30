@@ -136,7 +136,7 @@ public class PersonDao {
             mariaDbDataSource.setPassword("peoplepassword");
             personDao = new PersonDao(mariaDbDataSource);
 
-            Flyway flyway = Flyway.configure().cleanDisabled(false).dataSource(mariaDbDataSource).load();
+            Flyway flyway = Flyway.configure().locations("db/migration/person").cleanDisabled(false).dataSource(mariaDbDataSource).load();
 //            flyway.clean();
             flyway.migrate();
         } catch (SQLException sqle) {

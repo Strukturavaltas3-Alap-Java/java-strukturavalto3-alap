@@ -548,7 +548,7 @@ create table students
 
 Hozzd létre a táblákat, és táblák egy sorát reprezentáló osztályokat.
 Az iskola osztályban legyen egy tanulók listája, de lehessen létrehozni iskolát-e nélkül is.  
-Szúrj be egy iskolát az adtabázisba, olyat ami nem kapott tanulókat. Használj JdbcTemplatet. Az alkalmazásarchitektúrát a tanultaknak megfelelően alakítsd ki.
+Szúrj be egy iskolát az adtabázisba, olyat ami nem kapott tanulókat és add vissza az azonosítóját. Használj JdbcTemplatet. Az alkalmazásarchitektúrát a tanultaknak megfelelően alakítsd ki.
 
 
 

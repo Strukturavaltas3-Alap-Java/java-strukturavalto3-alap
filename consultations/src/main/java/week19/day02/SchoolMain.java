@@ -20,7 +20,7 @@ public class SchoolMain {
 
         Flyway flyway = Flyway.configure().locations("db/migration/school").cleanDisabled(false).dataSource(dataSource).load();
 
-        flyway.clean();
+
         flyway.migrate();
 
         SchoolRepository schoolRepository = new SchoolRepository(dataSource);
@@ -28,13 +28,20 @@ public class SchoolMain {
 
         SchoolStudentService service = new SchoolStudentService(schoolRepository,studentRepository);
 
-        service.insertSchoolWithStudents(
-                new School("ELTE","Budapest", List.of(
-                        new Student("John Doe",11),
-                        new Student("Jane Doe",12)
+//        service.insertSchoolWithStudents(
+//                new School("DE","Debrecen")
+//        );
 
-                ))
-        );
+        List<School> schoolsByCity = service.findSchoolsByCity("Debrecen");
+
+        schoolsByCity.stream().forEach(s-> System.out.println(s.getSchoolName()));
+
+        List<Student> students = service.findStudentsByYearInSchool(11,1);
+
+        students.stream().forEach(s-> System.out.println(s.getName()));
+
+        System.out.println(service.findSchoolWithMostStudentsJava().getSchoolName());
+        System.out.println(service.findSchoolWithMostStudentsSql().getSchoolName());
     }
 
 

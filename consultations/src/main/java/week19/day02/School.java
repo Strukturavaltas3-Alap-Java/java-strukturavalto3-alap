@@ -35,6 +35,10 @@ public class School {
         students.add(student);
     }
 
+    public void addAllStudents(List<Student> students){
+        students.addAll(students);
+    }
+
     public Long getId() {
         return id;
     }

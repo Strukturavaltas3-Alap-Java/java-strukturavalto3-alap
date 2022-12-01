@@ -1,0 +1,1 @@
+Ide jönnek majd a záróvizsga gyakorlati feladatai.

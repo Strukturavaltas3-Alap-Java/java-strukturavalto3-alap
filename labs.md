@@ -558,4 +558,5 @@ Bővítsd a tegnapi feladatot a következő metódusokkal:
 - Lehessen lekérdezni az összes iskolát város szerint.
 - Lehessen lekérdezni egy iskola egy évfolyamának összes tanulóját. Az iskolát id alapján kapjuk meg. 
 Vissza egy tanuló listát várunk. 
+- Melyik iskolába jár a legtöbb tanuló. Ezt a school-ban kérdezd le egy SQL utasítással. 
 

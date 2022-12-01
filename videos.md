@@ -220,3 +220,6 @@ Tranzakció kezeléses jdbc feladat (Activity)
 
 ## 2022.11.30
 Több tábla managelése, beszúrás lekérdezés jdbc templattel
+
+## 2022.12.01
+JdbcTemplate-es lekérdezések gyakorlása

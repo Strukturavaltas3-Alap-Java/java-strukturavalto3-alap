@@ -556,4 +556,6 @@ Szúrj be egy iskolát az adtabázisba, olyat ami nem kapott tanulókat és add 
 Bővítsd a tegnapi feladatot a következő metódusokkal:
 
 - Lehessen lekérdezni az összes iskolát város szerint.
+- Lehessen lekérdezni egy iskola egy évfolyamának összes tanulóját. Az iskolát id alapján kapjuk meg. 
+Vissza egy tanuló listát várunk. 
 

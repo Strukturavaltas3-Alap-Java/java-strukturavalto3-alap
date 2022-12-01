@@ -551,4 +551,9 @@ Az iskola osztályban legyen egy tanulók listája, de lehessen létrehozni isko
 Szúrj be egy iskolát az adtabázisba, olyat ami nem kapott tanulókat és add vissza az azonosítóját. Használj JdbcTemplatet. Az alkalmazásarchitektúrát a tanultaknak megfelelően alakítsd ki.
 
 
+# Day04
+
+Bővítsd a tegnapi feladatot a következő metódusokkal:
+
+- Lehessen lekérdezni az összes iskolát város szerint.
 

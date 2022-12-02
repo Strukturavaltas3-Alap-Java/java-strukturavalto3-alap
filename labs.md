@@ -509,7 +509,7 @@ Egészítsd ki az előző feladat kódját a szükséges helyeken úgy, hogy az 
 egyes meccs helyszíne is! (A tábla módosítását elegendő úgy megoldani, hogy eldobod az előző táblát és 
 létrehozod az újat.)
 
-# Day03
+## Day03
 Ebben az adatbáziskezelős feladatban két táblára lesz szükség. Az egyik a tanulók a másik az iskolák.  
 
 Az iskola adatai:
@@ -551,7 +551,7 @@ Az iskola osztályban legyen egy tanulók listája, de lehessen létrehozni isko
 Szúrj be egy iskolát az adtabázisba, olyat ami nem kapott tanulókat és add vissza az azonosítóját. Használj JdbcTemplatet. Az alkalmazásarchitektúrát a tanultaknak megfelelően alakítsd ki.
 
 
-# Day04
+## Day04
 
 Bővítsd a tegnapi feladatot a következő metódusokkal:
 
@@ -559,4 +559,19 @@ Bővítsd a tegnapi feladatot a következő metódusokkal:
 - Lehessen lekérdezni egy iskola egy évfolyamának összes tanulóját. Az iskolát id alapján kapjuk meg. 
 Vissza egy tanuló listát várunk. 
 - Melyik iskolába jár a legtöbb tanuló. Ezt a school-ban kérdezd le egy SQL utasítással. 
+
+## Day05
+
+Oldd meg az alábbi algoritmizálós feladatokat. Hozz létre egy `Algorithms` nevű osztályt és abban 
+dolgozz külön metódusokban!
+
+#### 1. feladat
+Egy repülővel repülünk az óceán fölött egyik szigetről egy másikra. Az alattunk lévő tájat egységes időközönként rögzítjük.
+Ha szárazföld van alattunk akkor 1-est jegyzünk fel ha víz akkor 0-t. Így a leszálláskor 1-esek és 0-k sorozatát kapjuk.  
+Pl: 1,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1
+
+  - Határozzuk meg a leghosszabb víz szakaszt ami felett elrepültünk. (Megoldás 5)
+  - Határozzuk meg, hogy hány sziget felett repültünk el. A sziget olyan 1-esek sorozata amit mindkét oldalról 0-k határolnak. Az induló és célállomást ne számoljuk.(Megoldás 4)   
+
+
 

@@ -581,7 +581,7 @@ pl: ["flower","flow","flight"] ->”fl”, ha nincs közös prefix adjunk vissza
 #### 3. feladat
 Anagrammák csoportosítása. Adott egy tömb benne szavakkal. 
 A feladat az, hogy adjuk vissza listák listáját, úgy, hogy az anagrammákat csoportosítjuk.
-Két szó anagramma, ha ugyanazok a betűk szerepelnek benne csak más sorrendben. 
+Két szó anagramma, ha ugyanazok a betűk szerepelnek benne csak más sorrendben.     
 Metódus `List<List<String>> findAnagramms(String[] words)`
 Példa:  
 Be: ["aab","aba","bab","abc","baa", "cba" ]

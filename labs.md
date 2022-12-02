@@ -577,3 +577,13 @@ Pl: 1,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1
 Leghosszabb közös előtag: Adott egy tömb benne szavakkal. Határozzuk meg a lehető leghosszabb közös prefixét a szavaknak!
 pl: ["flower","flow","flight"] ->”fl”, ha nincs közös prefix adjunk vissza üres `Stringet`!
 
+
+#### 4. feladat
+Anagrammák csoportosítása. Adott egy tömb benne szavakkal. 
+A feladat az, hogy adjuk vissza listák listáját, úgy, hogy az anagrammákat csoportosítjuk.
+Két szó anagramma, ha ugyanazok a betűk szerepelnek benne csak más sorrendben. 
+Metódus `List<List<String>> findAnagramms(String[] words)`
+Példa:  
+Be: ["aab","aba","bab","abc","baa", "cba" ]
+Ki: [["aab","aba","baa"],["abc","cba"],["bab"]]   
+A kimenetnél mindegy a lisában a listák sorrendje és a listákon belül a szavak sorrendje is. 

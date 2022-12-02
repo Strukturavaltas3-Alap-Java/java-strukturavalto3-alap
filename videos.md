@@ -223,3 +223,6 @@ Több tábla managelése, beszúrás lekérdezés jdbc templattel
 
 ## 2022.12.01
 JdbcTemplate-es lekérdezések gyakorlása
+
+## 2022.12.02
+Algoritmizálós feladatok

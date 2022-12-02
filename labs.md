@@ -578,7 +578,7 @@ Leghosszabb közös előtag: Adott egy tömb benne szavakkal. Határozzuk meg a 
 pl: ["flower","flow","flight"] ->”fl”, ha nincs közös prefix adjunk vissza üres `Stringet`!
 
 
-#### 4. feladat
+#### 3. feladat
 Anagrammák csoportosítása. Adott egy tömb benne szavakkal. 
 A feladat az, hogy adjuk vissza listák listáját, úgy, hogy az anagrammákat csoportosítjuk.
 Két szó anagramma, ha ugyanazok a betűk szerepelnek benne csak más sorrendben. 

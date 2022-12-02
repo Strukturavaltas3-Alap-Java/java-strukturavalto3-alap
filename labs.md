@@ -573,5 +573,7 @@ Pl: 1,0,0,1,1,1,1,0,0,0,0,0,1,0,0,0,0,1,1,0,1,0,1
   - Határozzuk meg a leghosszabb víz szakaszt ami felett elrepültünk. (Megoldás 5)
   - Határozzuk meg, hogy hány sziget felett repültünk el. A sziget olyan 1-esek sorozata amit mindkét oldalról 0-k határolnak. Az induló és célállomást ne számoljuk.(Megoldás 4)   
 
-
+#### 2. feladat
+Leghosszabb közös előtag: Adott egy tömb benne szavakkal. Határozzuk meg a lehető leghosszabb közös prefixét a szavaknak!
+pl: ["flower","flow","flight"] ->”fl”, ha nincs közös prefix adjunk vissza üres `Stringet`!
 

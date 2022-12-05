@@ -226,3 +226,6 @@ JdbcTemplate-es lekérdezések gyakorlása
 
 ## 2022.12.02
 Algoritmizálós feladatok
+
+## 2022.12.05
+Demo 3 rétegű alkalmazás felépítése, Lombok

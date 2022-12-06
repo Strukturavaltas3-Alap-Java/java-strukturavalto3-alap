@@ -229,3 +229,6 @@ Algoritmizálós feladatok
 
 ## 2022.12.05
 Demo 3 rétegű alkalmazás felépítése, Lombok
+
+## 2022.12.06
+Visszakérdezős konzultáció, a teljes tananyagból, átfogóan

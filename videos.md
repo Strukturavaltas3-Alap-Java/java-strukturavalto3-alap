@@ -232,3 +232,9 @@ Demo 3 rétegű alkalmazás felépítése, Lombok
 
 ## 2022.12.06
 Visszakérdezős konzultáció, a teljes tananyagból, átfogóan
+
+## 2022.12.07
+Hallgatói kérdések megválaszolása, GitHub Actions
+
+## 2022.12.08
+Röviden arról, hogy hogyan tovább. Projektfeladat demo.

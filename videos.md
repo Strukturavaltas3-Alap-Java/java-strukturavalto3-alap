@@ -238,3 +238,6 @@ Hallgatói kérdések megválaszolása, GitHub Actions
 
 ## 2022.12.08
 Röviden arról, hogy hogyan tovább. Projektfeladat demo.
+
+## 2022.12.09
+Záró konzultáció

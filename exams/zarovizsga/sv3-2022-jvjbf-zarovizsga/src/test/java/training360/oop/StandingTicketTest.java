@@ -36,6 +36,6 @@ class StandingTicketTest {
         BasicTicket basicTicket = new BasicTicket("RHCP", LocalDateTime.of(2023, 10, 12, 19, 30), 26942);
         Ticket ticket = new StandingTicket(basicTicket, StandingTicketType.FRONT_OF_STAGE);
 
-        assertEquals(32330.4, ticket.getPrice());
+        assertEquals(32330.4, ticket.getPrice(), 0.0001);
     }
 }
